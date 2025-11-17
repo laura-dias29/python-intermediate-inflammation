@@ -36,3 +36,7 @@ jobs:
     - name: Check style with Ruff
       run: |
         python3 -m ruff check --exit-zero --output-format=github inflammation  
+
+    - name: Check style with Ruff
+      run: |
+        python3 -m ruff check --exit-zero --output-format=github inflammation
